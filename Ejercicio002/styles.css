@@ -1,0 +1,50 @@
+:root{
+    --my-font: Arial, Helvetica, sans-serif;
+    --my-color: rgba(135, 142, 148, 0.692);
+    --my-border: solid 1px var(--my-color);
+    --my-links-color: rgb(68,122,245);
+}
+body{
+    margin: 2% 2%;
+    font-family: var(--my-font);
+}
+.article{
+    padding: 0%;
+    margin: 1%;
+    width: 40%;
+    border: var(--my-border);
+}
+.figure{
+    width: fit-content;
+}
+.image{
+    width: 100%;
+}
+.title{
+    padding: 2% 4% 0 4%;
+    margin: 0;
+    border-top: var(--my-border);
+}
+.content{
+    padding: 0% 4% 2% 4%;
+    border-bottom: var(--my-border);
+}
+.list{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+.item{
+    border-bottom: var(--my-border);
+    padding: 2% 4% 2% 4%;;
+}
+.links{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    display: flex;
+}
+.links .item{
+    border-bottom: none;    
+}
+.links a{
+    color: var(--my-links-color);
+}
