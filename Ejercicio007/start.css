@@ -1,0 +1,29 @@
+body {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 0.5fr);;
+  }
+
+
+#green {
+grid-column: 1;
+grid-column: 1/ span 3;
+}
+
+#orange {
+grid-column: 1/ span 2;
+grid-row: 3;
+}
+
+#yellow {
+background-color: #ffff92;
+}
+
+#red {
+grid-column: 2;
+grid-row: 2;
+}
+
+#blue {
+grid-column: 3;
+grid-row: 2/ span 2;
+}
