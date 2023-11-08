@@ -1,6 +1,6 @@
 body {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 0.5fr);;
+    grid-template-rows: repeat(3, 0.5fr);
   }
 
 
@@ -14,13 +14,26 @@ grid-column: 1/ span 2;
 grid-row: 3;
 }
 
-#yellow {
-background-color: #ffff92;
+#yellow{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#yellow ul{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 0.5fr);
 }
 
 #red {
 grid-column: 2;
 grid-row: 2;
+}
+
+#red ul{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 0.5fr);
 }
 
 #blue {
