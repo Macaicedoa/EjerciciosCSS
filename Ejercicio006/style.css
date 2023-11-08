@@ -1,10 +1,12 @@
 .calculator{
     border: solid 1px black;
     width: 250px;
-    height: 250px;
+    height: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
 }
 .result{
-    background-color: rgba(26, 58, 73, 0.534);
+    background-color: rgba(70, 98, 110, 0.534);
     width: 90%;
     height: 50px;
     display: flex;
@@ -16,17 +18,17 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-content: space-between;
-    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
 }
 .operator{
-    background-color: rgba(84, 133, 161, 0.822);
+    background-color: rgba(93, 135, 160, 0.822);
     display: flex;
     align-items: center;
     justify-content: center;
     border: solid 1px rgba(0, 0, 0, 0.26);
 }
 .number{
-    background-color: rgb(127, 208, 255);
+    background-color: rgb(120, 198, 243);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,8 +36,8 @@
 }
 .intro{
     grid-column: 4;
-    grid-row: 2/ span 3;
-    background-color: rgb(214, 118, 118);
+    grid-row: 2/ span 4;
+    background-color: rgb(240, 181, 181);
     display: flex;
     align-items: center;
     justify-content: center;
