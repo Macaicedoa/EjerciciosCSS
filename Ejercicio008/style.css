@@ -16,7 +16,7 @@ body{
 .article{
     padding: 0%;
     margin: 2% 2%;
-    width: 33.3%;
+    width: 30%;
     border-radius: 10%;
     overflow: hidden;
     background-color: rgba(117, 116, 116, 0.205);
@@ -24,14 +24,14 @@ body{
 }
 .head{
     width: 100%;
-    height: 50px;
+    height: 60px;
     display: grid;
     grid-template-columns: 20% 60% 20%;
     box-shadow: 1px 1px 1px 1px rgb(129, 126, 126);
 }
 .head-item-1{
     width: 100%;
-    height: 100%;
+    height: 60px;
     grid-column: 1;
     background-color: rgb(147, 147, 148);
     display: flex;
@@ -39,8 +39,8 @@ body{
     justify-content: center;
 }
 .circle{
-    width: 70%;
-    height: 70%;
+    width: 45px;
+    height: 45px;
     background-color: rgb(255, 255, 255);
     border-radius: 50% 50%;
     box-shadow: 1px 1px 1px 1px rgb(155, 148, 148);
