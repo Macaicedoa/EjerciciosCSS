@@ -8,17 +8,18 @@ body{
     font-family: var(--my-font);  
 }
 .grid{
-    width: 90%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    width: 100%;
+    margin: 0 2%;
+    display: flex;
+    /*grid-template-columns: 33.3% 33.3% 33.3%;*/
     justify-items: center;
     align-items: center;
+
 }
 .article{
     padding: 0%;
     margin: 5% 5%;
-    width: 300px;
+    width: 250px;
     border-radius: 10%;
     overflow: hidden;
     background-color: rgba(117, 116, 116, 0.205);
@@ -76,8 +77,9 @@ body{
 }
 @media (max-width: 768px) {
     .grid{
-        grid-template-columns: 50% 50%;
+        flex-basis: 50%;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
   }
 
