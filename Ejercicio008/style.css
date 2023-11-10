@@ -9,7 +9,6 @@ body{
 .grid{
     width: 100%;
     display: flex;
-    /*grid-template-columns: 33.3% 33.3% 33.3%;*/
     justify-items: center;
     align-items: center;
 }
