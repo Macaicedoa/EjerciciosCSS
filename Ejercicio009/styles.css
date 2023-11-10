@@ -53,19 +53,17 @@
     cursor: pointer;
 }
 .menu{
+    background-color: rgba(5, 10, 20, 0.815);
     fill: antiquewhite;
+    padding-left: 1%;
     display: none;
 }
 
 @media (max-width: 768px) {
-    .navbar h1{
-        display: none;
-    }
-    .u-list{
+    .navbar{
         display: none;
     }
     .menu{
         display: block;
-        margin: auto;
     }
   }
