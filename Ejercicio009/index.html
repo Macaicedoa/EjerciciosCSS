@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chevron-down.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Una navbar</title>
+  </head>
+  <body>
+    <nav class="navbar">
+        <h1>Navbar</h1>
+        <ul class="u-list">
+          <li class="left-item"><a class="link" href="#">Home</a></li>
+          <li class="left-item"><a class="link" href="#">Link</a></li>
+          <li class="left-item">
+              <select class="dropdown" name="dropdown" id="dropdown">
+                    <option class="option0">
+                      <p>Dropdown </p>
+                      <i class="gg-chevron-down">
+                    </option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select></i>
+          </li>
+            
+          <li class="left-item">
+            <button disabled>Disabled</button>
+          </li> 
+          <li class="right-item">
+            <input class="inputbar" placeholder="Escribe algo">
+            <button class="button">search</button>
+          </li>
+        </ul>
+        <div class="menu">
+          <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+        </div>
+    </nav>
+  </body>
+</html>
